@@ -12,7 +12,7 @@ const getLocalUser = (userName) => {
 
   useEffect(() => {
     setUser(getLocalUser())
-  });
+  },[]);
 
 if (user) {
   return (
