@@ -1,0 +1,2 @@
+# This fixes link issues when publishing on Netlify
+/* /index.html 200

@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+  .App-logo-small {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-logout {
+  height: 5vmin;
+  transform: rotate(90deg);
+}
+
+.logout--link {
+  text-decoration: none;
+  color: white;
+}
+
+.logout--link:hover {
+  text-decoration: none;
+  color: #e8a347;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #e8a347;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: white;
+  text-decoration: dotted;
+}
+
+.Btn-link {
+  border: none;
+  color: #e8a347;
+  background: none;
+  padding: 0;
+}
+
+.Btn-link:hover {
+  color: white;
+  text-decoration: dotted;
+}
+
+.btn--close {
+  border: none;
+}
+
+.btn-info {
+  color: #000;
+  background-color: #e8a347;
+  border-color: #e8a347;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.light {
+  color:#e8a347 !important;
+}
+
+.dark {
+  color: #282c34;
+}
+
+.white {
+  color: #6c757d;
+}
+
+.modal--input--default {
+  border: 1px solid #282c34;
+}
+
+.modal--input--ok {
+  border: 1px solid #e8a347;
+}
+
+.add--icon {
+  font-size: calc(10px + 4vmin);
+  margin-right: 15px;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #e8a347; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #e8a347; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.img--burger {
+  max-width: 75%;
+  max-height: 200px;
+}
+
+.btn--form {
+  width: 45%;
+}
+
+.nav--sticky {
+  background: #282c34;
+  border-bottom: 1px solid #e8a347;
+}
+
+.btn--menu {
+  background: url('menu.svg') !important
+}
+
+.logo--menu {
+  width: 30px;
+  margin-left: 12px;
+
+}
+
+.nav--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.span--number {
+  background: #6c757d;
+  padding: 3% 6%;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: medium;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.span--user {
+  background: #e8a347;
+  padding: 1% 3%;
+  border-radius: 50%;
+  display: inline-block;
+  color: #282c34;
+  font-size: 1rem;
+}
+
+.span--user--map {
+  background: #e8a347;
+  color:#282c34;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+.div--right {
+  position: absolute;
+  right: 15px
+}
+
+.no--wrap {
+  max-width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.span--title {
+  width: 200px !important;
+}
+
+.red {
+  color: #dc3545 !important;
+}
+
+.div--search {
+  position: relative;
+}
+
+.input--search {
+  background: #282c34;
+  border: 1px solid #e8a347;
+  border-radius: 5px;
+  color:#e8a347;
+  padding: 0 10px;
+  position: relative;
+  bottom: 0;
+  width: 70%;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.grey {
+  color: #6c757d
+}
+
+.width--fit {
+  width: fit-content;
+}
+
+.btn--close {
+  font-size: 1.5rem;
+}
+
+.link--edit {
+  color: #282c34;
+  text-decoration: none;
+}
+
+.map--marker {
+  color: white;
+  background: #e8a347;
+  padding: 5px 5px;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.map--marker--multi {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background: #e8a347;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 100%;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  transform: translate(-50%, -50%);
+  position:fixed;
+}
+
+.map--img--bg {
+  max-width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
