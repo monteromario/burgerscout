@@ -315,11 +315,11 @@ let Home = () =>  {
                                         <td><small>Proporcionalidad: { (data.proporcionalidad === 0) ? 'N/A' : data.proporcionalidad }</small></td>
                                         </tr>
                                         <tr>
-                                        <td><small>pan: { (data.pan === 0) ? 'N/A' : data.pan }</small></td>
+                                        <td><small>Pan: { (data.pan === 0) ? 'N/A' : data.pan }</small></td>
                                         <td><small>Originalidad: { (data.originalidad === 0) ? 'N/A' : data.originalidad }</small></td>
                                         </tr>
                                         <tr>
-                                        <td><small>ingredientes: { (data.ingredientes === 0) ? 'N/A' : data.ingredientes }</small></td>
+                                        <td><small>Ingredientes: { (data.ingredientes === 0) ? 'N/A' : data.ingredientes }</small></td>
                                         <td><small>Guarnicion: { (data.guarnicion === 0) ? 'N/A' : data.guarnicion }</small></td>
                                         </tr>
                                         { data.comments ? 
