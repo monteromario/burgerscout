@@ -54,7 +54,9 @@ function Login() {
           <button type="button" className="btn btn-info m-2" onClick={openModal} name="Germán">Germán</button>
           <button type="button" className="btn btn-info m-2" onClick={openModal} name="Mario">Mario</button>
         </div>
-        <p className="mt-5"><small>anyone else<span className="light">?</span> try <button className="Btn-link" name="Guest" onClick={setGuestUser}>guest access</button><span>.</span></small></p>
+        <p className="mt-3"><small>anyone else<span className="light">?</span> try <button className="Btn-link" name="Guest" onClick={setGuestUser}>guest access</button><span>.</span></small></p>
+        <p className="mt-3 light"><small>. . .</small></p>
+        <p className="mt-3"><small>also available<span className="light">:</span> <a className="Blue--link" href="http://cakescout.netlify.app"><i className="fa-solid fa-cake-candles"></i> cake<b>Scout</b></a><span>.</span></small></p>
         <div className="modal" id="loginModal" tabIndex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true" style={ { display: modal ? 'block' : 'none' } }> 
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
