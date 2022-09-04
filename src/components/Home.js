@@ -355,6 +355,7 @@ let Home = () =>  {
         </div>
         <div className="my-2">
         <a href="#top"><i className="far fa-arrow-alt-circle-up light"></i><button className="Btn-link mx-2" href="#" > Back to top </button></a>
+        <a href="https://cakescout.netlify.app/" className="mx-3 fixed--right"><i className="fa-solid fa-cake-candles Blue--link"></i></a>
         </div>
         <div className="modal" id="loginModal" tabIndex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true" style={ { display: modal ? 'block' : 'none' } }> 
         <div className="modal-dialog modal-dialog-centered" role="document">

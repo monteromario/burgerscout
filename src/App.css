@@ -84,6 +84,12 @@ body {
   border-color: #e8a347;
 }
 
+.btn-info:disabled {
+  color: #000;
+  background-color: #e8a347;
+  border-color: #e8a347;
+}
+
 .Blue--link {
   color: #61dafb;
   text-decoration: none;
@@ -314,4 +320,9 @@ body {
   max-width: 150px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.fixed--right {
+  position: absolute;
+  right: 0;
 }
